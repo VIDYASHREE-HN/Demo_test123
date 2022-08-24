@@ -19,7 +19,7 @@ test
     BuiltIn.log to console  ${output} 
 
 ssss
-    ${num}=  hii  ${2021}
+    ${num}=  hii  ${2022}
     Log To Console  ${num}
     SHOULD BE EQUAL  ${num}  ${2022}
     ${a} =  set variable  5
