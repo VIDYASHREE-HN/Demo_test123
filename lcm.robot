@@ -8,10 +8,10 @@ Put
     ${result}=  calculate_lcm  ${var1}  ${var2}
     [Return]  ${result}
 
-# hii
-#     [Arguments]  ${var}
-#     ${output}=  year  ${var}
-#     [Return]  ${output}
+hii
+     [Arguments]  ${var}
+     ${output}=  year  ${var}
+     [Return]  ${output}
 
 *** Test Cases ***
 test
@@ -20,8 +20,8 @@ test
 
 ssss
     ${num}=  hii  ${2021}
-    # # Log To Console  ${num}
-    # SHOULD BE EQUAL  ${num}  ${2021}
+    Log To Console  ${num}
+    SHOULD BE EQUAL  ${num}  ${2021}
     ${a} =  set variable  5
     ${b} =  set variable  10
     ${mm} =  Evaluate  int(${a}) + int(${b})
