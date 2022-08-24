@@ -21,9 +21,9 @@ test
 ssss
     ${num}=  hii  ${2021}
     Log To Console  ${num}
-    SHOULD BE EQUAL  ${num}  ${2021}
+    SHOULD BE EQUAL  ${num}  ${2022}
     ${a} =  set variable  5
     ${b} =  set variable  10
     ${mm} =  Evaluate  int(${a}) + int(${b})
     log to console  ${mm}
-    Should Be Equal  ${mm}  ${16}
+    Should Be Equal  ${mm}  ${15}
