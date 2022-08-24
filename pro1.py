@@ -1,8 +1,8 @@
 def calculate_lcm(x,y):
     if x>y:  
-        print(x)
+        return x
     else:   
-        print(y)
+        return y
 
 # calculate_lcm(2,3)
 
