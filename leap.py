@@ -11,5 +11,5 @@ class leap(object):
              print(f"{a} is not a leap year") 
             #  return a  
         
-f=leap()
-print(f.year(2020))
+#f=leap()
+#print(f.year(2020))
