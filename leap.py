@@ -1,6 +1,6 @@
 # class leap(object):
 #     def year(self,a):
-a = 2021
+a = 2022
 if (a % 400 == 0) and (a % 100 == 0):
             print(f"{a} ia a leap year")
 #         return a
