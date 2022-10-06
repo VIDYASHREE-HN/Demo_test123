@@ -31,6 +31,6 @@ jobs:
     - name: Test with python
       run: |
         python pro1.py
-        python leap.py
+        python leap.py  
         python -m robot lcm.robot
   
