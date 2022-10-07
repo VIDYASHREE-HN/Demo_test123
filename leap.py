@@ -8,8 +8,7 @@ elif (a % 4 == 0) and (a % 100 != 0):
             print(f"{a} is a leap year")
 #         return a  
 else:
-            print(f"{a} is not a leap year")
-        
+            print(f"{a} is not a leap year")        
         
 #f=leap()
 #print(f.year(2020))
